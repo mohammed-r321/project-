@@ -1,0 +1,82 @@
+/* تحسين الأزرار */
+.custom-btn {
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* تحسين البطاقات */
+.service-card {
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* تنسيق الهيدر */
+header .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* تحسين العروض */
+.offers {
+    background-color: #ff9800;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.offers .custom-btn:hover {
+    background-color: #e68a00;
+}
+
+/* تحسين قسم البطل */
+.hero {
+    background-color: #007bff;
+    padding: 80px 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero .btn {
+    padding: 12px 30px;
+}
+
+/* تحسين الفوتر */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ضبط الحجم الثابت للشعار */
+.logo {
+    width:30px; /* تعيين عرض أصغر للشعار */
+    height: 30px; /* تعديل الارتفاع تلقائيًا */
+    display: block;
+    margin: 0 auto;
+}
+
+/* إزالة أية قيود من الحاوية التي تحتوي على الشعار */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
